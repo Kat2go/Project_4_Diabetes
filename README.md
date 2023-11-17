@@ -23,4 +23,6 @@ One limitation of data is lack of ethnicity
 * Balanced accuracy score: %  
 * Precision: %  
 * Recall: %  
-*  
+
+## Summary
+  
