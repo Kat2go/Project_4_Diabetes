@@ -6,7 +6,7 @@
 * [Results](#results)
 * [Summary](#summary)
 ## About
-In the final project of Group 2's project for the DU Data Analytics and Visualization Boot Camp, team members Katrina Brown, Triston Cavaness, Lesley Conn and Juliet Hamilton
+In the final project of Group 2's project for the DU Data Analytics and Visualization Boot Camp, team members Katrina Brown, Triston Cavaness, Lesley Conn and Juliet Hamilton accessed data from Kaggle and the U.S. Centers for Disease Control
 ## Tools
 * Python
 * PANDAS
