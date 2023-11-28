@@ -25,6 +25,7 @@ Before CDC data could be imported into Tableau,
 
 ## Results
 Diabetes and health factors -- strong relationship between the Type 2 disease and hypertension, high blood sugar but not as strong a causal relationship between overweight and diabetes.
+CDC geographic data -- highest percentages of diabetes and obesity combined is in Kentucky/West Virginia Appalachian region but similar spike in "high/high" bivariate choropleth were also revealed in South Dakota, in the South, particularly in rural South Carolina and along Gulf Coast regions. 
 
 ## Summary
   
