@@ -1,4 +1,4 @@
-# Project 4: Determining Correlation Between Type 2 Diabetes and High-rish Health Factors
+# Project 4: Determining Correlation Between Type 2 Diabetes and High-risk Health Factors
 ## Table of Contents
 * [About](#about)
 * [Tools](#tools)
