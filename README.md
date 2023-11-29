@@ -6,7 +6,7 @@
 * [Results](#results)
 * [Summary](#summary)
 ## About
-In the final project of Group 2's project for the DU Data Analytics and Visualization Boot Camp, team members Katrina Brown, Triston Cavaness, Lesley Conn and Juliet Hamilton accessed data from Kaggle and the U.S. Centers for Disease Control (CDC)  to determine the extent of correlation of diagnosis of Type 2 diabetes onset in male and female populations based on factors of age, body mass index (an obesity indicator), smoking history, hypertension,fasting and non-fasting blood glucose levels, and heart disease. Kaggle data contained 100,000 rows of data; CDC information provided 2018 research on diabetes and obseity for more than 3,000 counties in the United States. One limitation of data in both sources was patient race and/orethnicity, though some hypothesis were developed after mapping the CDC data bsed on county codes, then referencing locations against U.S. Census data for those counties.
+In the final Group 2 project for the DU Data Analytics and Visualization Boot Camp, team members Katrina Brown, Triston Cavaness, Lesley Conn and Juliet Hamilton accessed data from Kaggle and the U.S. Centers for Disease Control (CDC) to determine the extent of correlation between diagnosis of Type 2 diabetes onset in male and female populations and the factors of age, body mass index (an obesity indicator), smoking history, hypertension,fasting and non-fasting blood glucose levels, and heart disease. Kaggle data contained 100,000 rows of data; CDC information provided 2018 research on diabetes and obseity for more than 3,000 counties in the United States. One limitation of data in both sources was patient race and/orethnicity, though some hypotheses were developed after mapping the CDC data bsed on county codes, then referencing locations against U.S. Census data for those counties.
 ## Tools
 * Python
 * PANDAS
@@ -15,8 +15,8 @@ In the final project of Group 2's project for the DU Data Analytics and Visualiz
 * sklearn.metrics
 * Tableau
 ## Analysis
-The Kaggle data was imported, reviewed for nonnulls and data types and an initial histogram view of each data type was developed to document distribution of data by gender and health condition. After the data cleanup, the updated dataframe was split into the target and feature variables, followed by a train-test split. A logistic regression model was applied to the test portion, resulting in predictions. Evaluation metrics, including balanced accuracy score, confusion matrix, and classification report, were computed to assess the model's performance. (MORE HERE)
-Before CDC data could be imported into Tableau, 
+The Kaggle data was imported, reviewed for nonnulls and data types and an initial histogram view of each data type was developed to document distribution of data by gender and health condition. After the data cleanup, the updated dataframe was split into the target and feature variables, followed by a train-test split. A logistic regression model was applied to the test portion, resulting in predictions. Evaluation metrics, including balanced accuracy score, confusion matrix, and classification report, were computed to assess the model's performance.
+Before CDC data could be imported into Tableau, FIPS codes for each county had to be uniformly formatted into a 5-digit code. Additional research was required to ascertain the definitions within the CDC choropleth legend for HH, HM, HL, MH, MM, ML, LH, LM, LL. The acronyms denote combined findings within each U.S. county for high, medium, and low rankings for the often-related conditions of obesity and Type 2 diabets.
 
 **Logistic Regression on Training Data:**  
 * Balanced accuracy score: %  
